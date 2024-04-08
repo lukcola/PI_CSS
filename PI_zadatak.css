@@ -1,0 +1,73 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.container div {
+    position: relative;
+    border: 4px solid white;
+    flex-basis: 10%;
+    font-size: 8vw;
+    font-weight: bold;
+    padding: 5%;
+}
+
+@keyframes animacija {
+    0% {
+        transform: translateY(-500px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.C {
+    width: 200px;
+    height: 100px;
+    background-color: #696a6b;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    animation: animacija 1s ease-in-out;
+}
+
+.S1 {
+    width: 200px;
+    height: 100px;
+    background-color: #db3434;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    animation: animacija 3s ease-in-out;
+}
+
+.S2 {
+    width: 200px;
+    height: 100px;
+    background-color: #d8db34;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    animation: animacija 6s ease-in-out;
+}
+
+.C:hover {
+    transform: scale(0.8, 0.8);
+}
+
+.S1:hover {
+    transform: skewY(-20deg);
+}
+
+.S2:hover {
+    transform: skewY(20deg);
+}
