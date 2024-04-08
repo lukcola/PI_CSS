@@ -1,0 +1,13 @@
+@keyframes animacija1 {
+    0% {
+        top: 0px;
+        background: red;
+        width: 100px;
+    }
+
+    100% {
+        top: 200px;
+        background: yellow;
+        width: 300px;
+    }
+}
