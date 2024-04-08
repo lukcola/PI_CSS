@@ -1,3 +1,14 @@
+div{
+    position: relative;
+    border: 2px solid rgb(0, 255, 76);
+    padding: 2px;
+    margin: 3px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    animation: animacija1 2s linear;
+}
+
 @keyframes animacija1 {
     0% {
         top: 0px;
